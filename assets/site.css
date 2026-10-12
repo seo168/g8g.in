@@ -20,6 +20,9 @@ code,.card p,td{overflow-wrap:anywhere}code{font-size:12px;color:#ffe2ad}
 @media(max-width:900px){.quick-download,.market-section{margin-left:22px;margin-right:22px}.market-section{grid-template-columns:1fr}}
 @media(max-width:560px){.quick-download{display:block;padding:24px}.quick-download .primary{width:100%;margin-top:18px}.market-section{padding:25px}.market-points{grid-template-columns:1fr 1fr}}
 .release-badge{display:inline-flex;margin-bottom:12px;padding:8px 13px;border:1px solid #94602c;border-radius:999px;background:rgba(43,18,10,.85);color:var(--gold);font-size:12px;font-weight:900;letter-spacing:.08em}
+.brand-answer{max-width:1180px;margin:0 auto 58px;padding:38px;border:1px solid #86532a;border-radius:24px;background:radial-gradient(circle at 100% 0,#613014 0,transparent 40%),linear-gradient(135deg,#2d120b,#180805);display:grid;grid-template-columns:1.25fr .75fr;gap:42px;align-items:center}.brand-answer h2{font-size:clamp(34px,5vw,58px);line-height:1;margin:8px 0 18px}.brand-answer p{max-width:720px;color:var(--muted);font-size:16px}.brand-facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}.brand-facts span{min-height:102px;padding:18px;border:1px solid var(--line);border-radius:16px;background:rgba(20,6,4,.7);color:var(--muted);font-size:12px}.brand-facts b{display:block;margin-bottom:6px;color:#fff;font-size:17px}.brand-facts span:first-child b{color:var(--gold);font-size:24px}
+@media(max-width:900px){.brand-answer{margin-left:22px;margin-right:22px;grid-template-columns:1fr}}
+@media(max-width:560px){.brand-answer{margin-left:16px;margin-right:16px;padding:24px}.brand-facts{grid-template-columns:1fr 1fr}.brand-facts span{min-height:92px;padding:14px}}
 
 /* Mobile hardening: prevent horizontal overflow and keep every CTA tappable. */
 html,body{max-width:100%;overflow-x:hidden}img{max-width:100%}
